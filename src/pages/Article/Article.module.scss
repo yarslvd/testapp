@@ -1,0 +1,51 @@
+.bgImg {
+    height: 250px;
+    background-color: black;
+    background-size: cover;
+    object-fit: cover;
+    object-position: center;
+}
+
+.paper {
+    box-sizing: border-box;
+    max-width: 1440px;
+    width: 100%;
+    min-height: 300px;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%, 0%); 
+    background-color: #fff;
+    box-shadow: 0px 8px 24px 0px #0000000D;
+    padding: 35px 75px;
+
+    h1 {
+        color: #363636;
+        font-weight: 400;
+        font-size: 24px;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+.link {
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+    text-decoration: none;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+    span {
+        color: #363636;
+        font-weight: 700;
+        font-size: 16px;
+    }
+}
